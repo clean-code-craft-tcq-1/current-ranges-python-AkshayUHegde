@@ -1,3 +1,4 @@
+import math
 import unittest
 import current_ranges
 
@@ -8,6 +9,5 @@ class CurrentRangesTest(unittest.TestCase):
         test_input = []
         actual_output = current_ranges.get_current_ranges(test_input)
         self.assertEqual(expected_output, actual_output)
-
 
 unittest.main()
