@@ -60,8 +60,8 @@ Start test-driven development:
    pasted code.
    100% coverage or nothing :D
 
-1. My smallest possible failing test is to test that the code returns an error code for empty input.
+1. My smallest possible failing test is to test that the code returns an error code for empty input - `test_empty_input`.
 
-1. Smallest possible passing function returns an error code for empty input.
+1. Smallest possible passing function returns an error code for empty input - `get_current_ranges`.
 
-1. Another failing test is to test that all the inputs are of int type.
+1. Another failing test is to test that all the inputs are of int type - `test_non_int_input`.
