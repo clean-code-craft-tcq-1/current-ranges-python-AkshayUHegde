@@ -41,8 +41,10 @@ Range, Readings
 
 Start test-driven development:
 
-1. Establish quality parameters for your project: What is the maximum complexity you would allow? How much duplication would you consider unacceptable? What is the coverage you'll aim for?
-Adapt/adopt/extend the `yml` files from one of your workflow folders.
+1. Establish quality parameters for your project: What is the maximum complexity you would allow? 
+   How much duplication would you consider unacceptable? 
+   What is the coverage you'll aim for?
+   Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 1. Write the smallest possible failing test.
 
@@ -50,7 +52,16 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 1. Write the next failing test.
 
-Implement one failing test and at least one passing test:
+## Task Implementation Details
 
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+1. I have set the maximum cyclomatic complexity to be 4 to allow for slightly more convoluted control flows than
+   previous assignments.
+   I have kept the duplication rules as is from the other assignments since I considered them a fair check for copy
+   pasted code.
+   100% coverage or nothing :D
+
+1. My smallest possible failing test is to test that the code returns an error code for empty input - `test_empty_input`.
+
+1. Smallest possible passing function returns an error code for empty input - `get_current_ranges`.
+
+1. Another failing test is to test that all the inputs are of int type - `test_non_int_input`.
